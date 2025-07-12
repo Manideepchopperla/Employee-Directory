@@ -45,7 +45,7 @@ public class Main {
 
         // Render
         Template template = cfg.getTemplate("index.ftlh");
-        try (Writer out = new FileWriter("output.html")) {
+        try (Writer out = new FileWriter("index.html")) {
             template.process(dataModel, out);
         }
 
