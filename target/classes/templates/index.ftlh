@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Employee Directory</title>
-    <link rel="stylesheet" href="C:\Users\chopp\Music\Employee Directory\src\main\resources\static\css\style.css" />
+    <link rel="stylesheet" href="./src/main/resources/static/css/style.css" />
 </head>
 <body>
     <div class="header">
@@ -121,7 +121,7 @@
         let filteredEmployees = [...employees];
     </script>
 
-    <script src="C:\Users\chopp\Music\Employee Directory\src\main\resources\static\js\data.js"></script>
-    <script src="C:\Users\chopp\Music\Employee Directory\src\main\resources\static\js\app.js"></script>
+    <script src="./src/main/resources/static/js/data.js"></script>
+    <script src="./src/main/resources/static/js/app.js"></script>
 </body>
 </html>
